@@ -7,7 +7,7 @@ block content
         form(action="", method="post")
             input(type="submit", value="Delete")
     else
-        h2 Yo Have to delete these items first
+        h2 You Have to delete these items first
         ul
             each item in items
                 a(href=item.appUrl) #{item.name}
