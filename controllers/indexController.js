@@ -6,7 +6,7 @@ module.exports = function(req, res, next) {
     res.render('index', {
       title: 'Home Page',
       items: results[0],
-      categories: results[1],
+      categorys: results[1],
     })
   })
 }
