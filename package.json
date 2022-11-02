@@ -8,6 +8,7 @@
     "serverstart": "DEBUG=express-locallibrary-tutorial:* npm run devstart"
   },
   "dependencies": {
+    "compression": "^1.7.4",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
     "dotenv": "^16.0.3",
@@ -19,7 +20,7 @@
     "nodemon": "^2.0.20",
     "pug": "^3.0.2"
   },
-  "engines": { 
-    "node": "16.17.0" 
+  "engines": {
+    "node": "16.17.0"
   }
 }
